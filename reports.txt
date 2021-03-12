@@ -1,8 +1,0 @@
-design_sell hw
-
-
-git repo
-https://github.com/jaypatel061/1973992_JayPatel_TCSMEANStackTraining.git
-
-created reports.txt (instructions)
-

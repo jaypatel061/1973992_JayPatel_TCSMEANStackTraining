@@ -1,0 +1,49 @@
+
+#fontStyle{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: left;
+    color: chocolate;
+    text-decoration: underline;
+	
+}
+label{
+	width: 50px;
+	float:center;
+}
+#d1 { 
+	padding:20px;
+    border: red solid 2px;
+	border-radius: 20px;
+    width:500px;
+	height:200px;
+    text-align:center;
+    background-color: silver;
+ }
+ #d2 {
+	 padding:10px;
+	 border:  blue 2px;
+	 border-radius: 20px;
+	 width: 300px;
+	 height: 100px;
+	 background-color: coral;
+ }
+ #d3{
+	padding:10px;
+	border: dashed rgb(25, 197, 33) 2px;
+	border-radius: 20px;
+	width: 300px;
+	height: 100px;
+	background-color: rebeccapurple;
+ }
+ #purchase{
+	color:yellow;
+	font-weight: bolder;
+	font-size: medium;
+	font-style: oblique;
+ }
+
+
+ 

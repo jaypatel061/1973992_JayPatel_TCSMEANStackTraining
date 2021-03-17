@@ -1,0 +1,15 @@
+div
+{
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align:center;
+
+}	
+p{
+	font-size:20px;
+	font-style: italic;
+	color:blue;
+	text-align:center;
+}

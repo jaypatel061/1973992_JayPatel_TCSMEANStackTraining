@@ -1,7 +1,0 @@
-git repo:
-https://github.com/jaypatel061/1973992_JayPatel_TCSMEANStackTraining.git
-
-created main.html
-created info.js
-used bootstrap CSS
-

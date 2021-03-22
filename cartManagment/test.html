@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Main Page</title>
+    <script src="test.js"></script>
+    <style>
+        label{
+            color:blue;
+            text-align:center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+       div{
+        border: solid black 2px;        
+       }
+       p{
+           text-align: center;
+           font-size:x-large;
+           color: crimson;
+       }
+    </style>
+</head>
+<body>
+    <p><b>Welcome to Patel Brothers</b></p>
+    <ul class="nav justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+        <li class="nav-item"><a href="testCheckout.html" class="nav-link">Check Out</a></li>
+    </ul>
+    <div class="container" id ="items">
+        <div class="row">
+            <div class="col" id="imageId"><label>Image:</label><img src="pexels-photo-102104.jpeg" alt="Apple picture" style="width:150px;height:150px";/> </div><br/>
+            <div class="col" id="name"><label>Name: </label>Apple<input type="hidden" name="fruit" id="fruit" value="apple"/><input type="hidden" name="p1" id="p1" value="1.89"/> </div>
+            <div class="col" id="price"><label>Add: </label><input type="button" id="xyz" name="xyz" onClick="onFormSubmit()" value="1.89"/></div><br/>
+        </div>
+        
+        <div class="row">
+            <div class="col" id="imageId1"><label>Image:</label><img src="vegan-chocolate-peanut-butter-banana-smoothie-1000994-bananas-cropped-e4bdab5174cf461baf30bcdb8193c3e0.jpg" alt="Banana Picture" style="width:150px;height:150px";/> </div>
+            <div class="col" id="name1"><label>Name: </label>Banana<input type="hidden" name="fruit1" id="fruit1" value="banana"/><input type="hidden" name="p2" id="p2" value="0.99"/></div>
+            <div class="col" id="price1"><label>Add: </label><input type="button" id="xyz" name="xyz" onClick="onFormSubmit1()" value="0.99"/></div>
+        </div>
+			
+        <div class="row">
+            <div class="col" id="imageId2"><label>Image:</label><img src="71+qAJehpkL._SL1500_.jpg" alt="Pineapple picture" style="width:150px;height:150px";/> </div>
+            <div class="col" id="name2"><label>Name: </label>Pineapple<input type="hidden" name="fruit2" id="fruit2" value="Pineapple"/><input type="hidden" name="p3" id="p3" value="1.49"/></div>
+            <div class="col" id="price2"><label>Add: </label><input type="button" id="price2" name="price2" onClick="onFormSubmit2()" value="$1.49"/></div>
+        </div>
+        <div class="row">
+            <div class="col" id="imageId3"><label>Image:</label><img src="Watermelo_slice-e1594407047257-936x1024.jpg" alt="Watermelon picture" style="width:150px;height:150px";/> </div>
+            <div class="col" id="name3"><label>Name: </label>Watermelon<input type="hidden" name="fruit3" id="fruit3" value="watermelon"/><input type="hidden" name="p4" id="p4" value="3.29"/></div>
+            <div class="col" id="price3"><label>Add: </label><input type="button" id="price3" name="price3" onClick="onFormSubmit3()" value="$3.29"/></div>
+        </div>
+        <div class="row">
+            <div class="col" id="imageId4"><label>Image:</label><img src="peach.jpg" alt="Peach picture" style="width:150px;height:150px";/> </div>
+            <div class="col" id="name4"><label>Name: </label>Peach<input type="hidden" name="fruit4" id="fruit4" value="peach"/><input type="hidden" name="p5" id="p5" value="1.59"/></div>
+            <div class="col" id="price4"><label>Add: </label><input type="button" id="price4" name="price4" onClick="onFormSubmit4()" value="$1.59"/></div>
+        </div>
+        <div class="row">
+            <div class="col" id="imageId5"><label>Image:</label><img src="photo-1498557850523-fd3d118b962e.jpg" alt="Blueberry picture" style="width:150px;height:150px";/> </div>
+            <div class="col" id="name5"><label>Name: </label>Blueberry<input type="hidden" name="fruit5" id="fruit5" value="blueberry"/><input type="hidden" name="p6" id="p6" value="4.29"/></div>
+            <div class="col" id="price5"><label>Add: </label><input type="button" id="price5" name="price5" onClick="onFormSubmit5()" value="$4.29"/></div>
+        </div>  
+        
+    </div>
+	
+</body>
+</html>
